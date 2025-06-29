@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Cloud</title>
+  <style>
+    body {
+      background-color: #1f1f1f;
+      margin: 0;
+      font-family: sans-serif;
+    }
+    .desktop {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    .icon {
+      width: 80px;
+      height: 80px;
+      margin: 10px;
+      text-align: center;
+      color: white;
+      cursor: pointer;
+    }
+    .icon img {
+      width: 64px;
+      height: 64px;
+    }
+  </style>
+</head>
+<body>
+  <div class="desktop">
+    <div class="icon" onclick="alert('Ứng dụng hoạt động')">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" />
+      <div>App 1</div>
+    </div>
+    <div class="icon" onclick="alert('App lỗi!')">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888870.png" />
+      <div>Lỗi app</div>
+    </div>
+    <div class="icon" onclick="alert('Settings mở')">
+      <img src="https://cdn-icons-png.flaticon.com/512/3524/3524659.png" />
+      <div>Setting</div>
+    </div>
+  </div>
+</body>
+</html>
